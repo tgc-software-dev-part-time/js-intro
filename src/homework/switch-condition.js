@@ -16,21 +16,20 @@
 
 const environment = "DEV";
 
-switch(environment){
-    case "PROD":
-        console.log("2 servers provisioned");
-        break;
-    
-    case "STAGE":
-        console.log("1 server provisioned");
-        break;
+switch (environment) {
+  case "PROD":
+    console.log("2 servers provisioned");
+    break;
 
-    case "DEV": // edit this case
-        console.log("no provision");
-        break;
-    
-    default:
-        console.log("no provision");
-        break;
+  case "STAGE":
+    console.log("1 server provisioned");
+    break;
+
+  case "DEV": // edit this case
+    console.log("no provision");
+    break;
+
+  default:
+    console.log("no provision");
+    break;
 }
-

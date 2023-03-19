@@ -6,14 +6,12 @@
         - Add some codes below to try out other arithmetic operators
 */
 
-
 const x = 12;
 const y = 5;
 
 console.log(y * x); // * operator
 console.log(y / x); // / operator
 console.log(y % x); // % operator
-
 
 /*
 

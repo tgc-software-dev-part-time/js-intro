@@ -1,11 +1,9 @@
 // ----- Arithmetic and Assignment Operator on Data Type (number) -----
 
 const x = 10; // = is assignment operator
-const y = 20; 
+const y = 20;
 const z = x + y; // + is an arithmetic operator that sums x and y, the resolved value is assigned to z with = operator.
 console.log(z); // 30
-
-
 
 // ----- Arithmetic and Assignment Operator on Data Type (string) -----
 
